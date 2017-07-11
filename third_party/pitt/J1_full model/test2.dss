@@ -1,0 +1,43 @@
+clear
+New Circuit.T2
+Edit Vsource.Source BasekV=0.24 pu=1.05 ISC3=3000000 ISC1=2500000 !Define source V and Z
+
+New linecode.721 nphases=1 BaseFreq=60 r1=0.045416667  x1=0.037367424 c1=80.27484728
+//new LineCode.5KV_1_4/0_AA units=mi nphases=1 r1=0.85483 x1=0.23134 c1=507.443 normamps=296.0 emergamps=296.0
+
+New LoadShape.LoadShape1 npts=2880 sinterval=30 csvfile=load_1.csv action=normalize
+New LoadShape.LoadShape2 npts=2880 sinterval=30 csvfile=load_2.csv action=normalize
+New LoadShape.LoadShape3 npts=2880 sinterval=30 csvfile=load_3.csv action=normalize
+New LoadShape.LoadShape4 npts=2880 sinterval=30 csvfile=load_4.csv action=normalize
+New LoadShape.LoadShape5 npts=2880 sinterval=30 csvfile=load_5.csv action=normalize
+New LoadShape.LoadShape6 npts=2880 sinterval=30 csvfile=load_6.csv action=normalize
+New LoadShape.LoadShapeseg1 npts=2880 sinterval=30 csvfile=load_seg_1.csv 
+New LoadShape.LoadShapeseg2 npts=2880 sinterval=30 csvfile=load_seg_2.csv 
+
+New Line.LINE0 Bus1=SourceBus Bus2=b0 Linecode=721 Length=0.0001 Units=Mi
+New Line.LINE1 Bus1=b0  Bus2=b1 Linecode=721 Length=0.05 Units=Mi 
+New Line.LINE2 Bus1=b1 Bus2=b2 Linecode=721 Length=0.05 Units=Mi 
+New Line.LINE3 Bus1=b1 Bus2=b3 Linecode=721 Length=0.05 Units=Mi 
+New Line.LINE4 Bus1=b3 Bus2=b4 Linecode=721 Length=0.05 Units=Mi 
+New Line.LINE5 Bus1=b4 Bus2=b5 Linecode=721 Length=0.05 Units=Mi 
+New Line.LINE6 Bus1=b4 Bus2=b6 Linecode=721 Length=0.05 Units=Mi 
+
+
+New Load.LOAD1  phases=1 Bus1=b1 kv=0.138564 kW=46 PF=1 daily=loadshape1 model=1 status=variable
+New Load.LOAD2  phases=1 Bus1=b2 kV=0.138564 kW=48.5 PF=1 daily=loadshape2 model=1 status=variable
+New Load.LOAD3  phases=1 Bus1=b3 kV=0.138564 kW=47 PF=1 daily=loadshape3 model=1 status=variable
+New Load.LOAD4  phases=1 Bus1=b4 kV=0.138564 kW=43.5 PF=1 daily=loadshape4 model=1 status=variable
+New Load.LOAD5  phases=1 Bus1=b5 kV=0.138564 kW=39.5 PF=1 daily=loadshape5 model=1 status=variable
+New Load.LOAD6  phases=1 Bus1=b6 kV=0.138564 kW=50 PF=1 daily=loadshape6 model=1 status=variable
+
+
+
+
+Set voltagebase=0.24
+calcv
+New Energymeter.M1 element=Line.LINE0 1
+Solve
+//Show Voltages
+//Show Currents
+//Show Powers kVA elements
+//plot profile phases=all

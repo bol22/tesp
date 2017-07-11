@@ -1,0 +1,90 @@
+// J1
+// Monitors for the simplified system
+
+// VI monitors for the beginning and end of each segment
+New monitor.simp_seg1_in	element=Line.Line_Seg_1						term=1		mode=0
+New monitor.simp_seg1_out	element=Line.Line_Seg_1						term=2		mode=0
+
+New monitor.simp_seg2_in	element=Line.Line_Seg_2						term=1		mode=0
+New monitor.simp_seg2_out	element=Line.Line_Seg_2						term=2		mode=0
+
+New monitor.simp_seg3_in	element=Line.Line_Seg_3						term=1		mode=0
+New monitor.simp_seg3_out	element=Line.Line_Seg_3						term=2		mode=0
+
+New monitor.simp_seg4_in	element=Line.Line_Seg_4						term=1		mode=0
+New monitor.simp_seg4_out	element=Line.Line_Seg_4						term=2		mode=0
+
+New monitor.simp_seg5_in	element=Line.Line_Seg_5						term=1		mode=0
+New monitor.simp_seg5_out	element=Line.Line_Seg_5						term=2		mode=0
+
+New monitor.simp_seg6_in	element=Line.Line_Seg_6						term=1		mode=0
+New monitor.simp_seg6_out	element=Line.Line_Seg_6						term=2		mode=0
+
+New monitor.simp_seg7_in	element=Line.Line_Seg_7						term=1		mode=0
+New monitor.simp_seg7_out	element=Line.Line_Seg_7						term=2		mode=0
+
+New monitor.simp_seg8_in	element=Line.Line_Seg_8						term=1		mode=0
+New monitor.simp_seg8_out	element=Line.Line_Seg_8						term=2		mode=0
+
+New monitor.simp_seg9_in	element=Line.Line_Seg_9						term=1		mode=0
+New monitor.simp_seg9_out	element=Line.Line_Seg_9						term=2		mode=0
+
+New monitor.simp_seg10_in	element=Line.Line_Seg_10					term=1		mode=0
+New monitor.simp_seg10_out	element=Line.Line_Seg_10					term=2		mode=0
+
+New monitor.simp_seg11_in	element=Line.Line_Seg_11					term=1		mode=0
+New monitor.simp_seg11_out	element=Line.Line_Seg_11					term=2		mode=0
+
+New monitor.simp_seg12_in	element=Line.Line_Seg_12					term=1		mode=0
+New monitor.simp_seg12_out	element=Line.Line_Seg_12					term=2		mode=0
+
+New monitor.simp_seg13_in	element=Line.Line_Seg_13					term=1		mode=0
+New monitor.simp_seg13_out	element=Line.Line_Seg_13					term=2		mode=0
+
+New monitor.simp_seg14_in	element=Line.Line_Seg_14					term=1		mode=0
+New monitor.simp_seg14_out	element=Line.Line_Seg_14					term=2		mode=0
+
+New monitor.simp_seg15_in	element=Line.Line_Seg_15					term=1		mode=0
+New monitor.simp_seg15_out	element=Line.Line_Seg_15					term=2		mode=0
+
+New monitor.simp_seg16_in	element=Line.Line_Seg_16					term=1		mode=0
+New monitor.simp_seg16_out	element=Line.Line_Seg_16					term=2		mode=0
+
+New monitor.simp_seg17_in	element=Line.Line_Seg_17					term=1		mode=0
+New monitor.simp_seg17_out	element=Line.Line_Seg_17					term=2		mode=0
+
+New monitor.simp_seg18_in	element=Line.Line_Seg_18					term=1		mode=0
+New monitor.simp_seg18_out	element=Line.Line_Seg_18					term=2		mode=0
+
+New monitor.simp_seg19_in	element=Line.Line_Seg_19					term=1		mode=0
+New monitor.simp_seg19_out	element=Line.Line_Seg_19					term=2		mode=0
+
+New monitor.simp_seg20_in	element=Line.Line_Seg_20					term=1		mode=0
+New monitor.simp_seg20_out	element=Line.Line_Seg_20					term=2		mode=0
+
+New monitor.simp_seg21_in	element=Line.Line_Seg_21					term=1		mode=0
+New monitor.simp_seg21_out	element=Line.Line_Seg_21					term=2		mode=0
+
+New monitor.simp_seg22_in	element=Line.Line_Seg_22					term=1		mode=0
+New monitor.simp_seg22_out	element=Line.Line_Seg_22					term=2		mode=0
+
+New monitor.simp_seg23_in	element=Line.Line_Seg_23					term=1		mode=0
+New monitor.simp_seg23_out	element=Line.Line_Seg_23					term=2		mode=0
+
+// MONITORS FOR STATE OF CONTROLLED DEVICES
+// Regulator Taps
+//New monitor.Simp_RegSub 	element=Transformer.SubXfmr 		terminal=2 	mode=2
+//New monitor.Simp_Reg5		element=Transformer.regxfmr_B4874 	terminal=2 	mode=2
+//New monitor.Simp_Reg7		element=Transformer.regxfmr_B4872 	terminal=2 	mode=2
+//New monitor.Simp_Reg8		element=Transformer.regxfmr_B4868 	terminal=2 	mode=2
+//New monitor.Simp_Reg3		element=Transformer.regxfmr_B18863 	terminal=2 	mode=2
+//New monitor.Simp_Reg6		element=Transformer.regxfmr_B18864 	terminal=2 	mode=2
+//New monitor.Simp_Reg1		element=Transformer.regxfmr_B18865	terminal=2 	mode=2
+//New monitor.Simp_Reg2		element=Transformer.regxfmr_B19008 	terminal=2 	mode=2
+//New monitor.Simp_Reg4		element=Transformer.regxfmr_B19010 	terminal=2 	mode=2
+// Capacitor State
+//New monitor.Simp_Cap3		element=Capacitor.B4862-1						mode=33
+//New monitor.Simp_Cap4		element=Capacitor.B4829-1						mode=33
+//New monitor.Simp_Cap5		element=Capacitor.B4877-1						mode=33
+//New monitor.Simp_Cap1		element=Capacitor.B4909-1						mode=33
+//New monitor.Simp_Cap2		element=Capacitor.B18944						mode=33

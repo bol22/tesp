@@ -1,0 +1,6 @@
+
+set mode=daily number=2880 steptime=30s
+
+solve mode=daily stepsize=30s number=2880
+
+export meters

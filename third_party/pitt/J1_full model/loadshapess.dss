@@ -1,0 +1,8 @@
+New LoadShape.LoadShape1 npts=2880 sinterval=30 mult=(File=load_1.csv) Action=Normalize
+New LoadShape.LoadShape2 npts=2880 sinterval=30 mult=(File=load_4.csv) Action=Normalize
+New LoadShape.LoadShapeseg1 npts=2880 sinterval=30 csvfile=load_seg_1.csv 
+New LoadShape.LoadShapeseg2 npts=2880 sinterval=30 csvfile=load_seg_2.csv 
+New LoadShape.LoadShapeseg1G npts=2880 sinterval=30 csvfile=load_seg_1G.csv 
+New LoadShape.LoadShapeseg2G npts=2880 sinterval=30 csvfile=load_seg_2G.csv 
+New LoadShape.LoadShapeseg1GG npts=2880 sinterval=30 csvfile=load_seg_1GG.csv 
+New LoadShape.LoadShapeseg2GG npts=2880 sinterval=30 csvfile=load_seg_2GG.csv 

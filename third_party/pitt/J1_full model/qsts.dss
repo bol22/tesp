@@ -1,0 +1,11 @@
+// J1
+set loadmult=1.0
+
+set mode=yearly
+
+solve mode=yearly stepsize=60 number=1440
+
+export meters
+
+
+

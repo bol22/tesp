@@ -1,0 +1,12 @@
+Transformer.subxfmr.Taps=[1.0 1.07500]
+Transformer.regxfmr_b18865.Taps=[1.0 1.05000]
+Transformer.regxfmr_b19008.Taps=[1.0 1.04375]
+Transformer.regxfmr_b18863.Taps=[1.0 1.06250]
+Transformer.regxfmr_b19010.Taps=[1.0 1.07500]
+Transformer.regxfmr_b4874.Taps=[1.0 1.05000]
+Transformer.regxfmr_b18864.Taps=[1.0 1.07500]
+Transformer.regxfmr_b4872.Taps=[1.0 1.05000]
+Transformer.regxfmr_b4868.Taps=[1.0 1.05000]
+!Set controlmode=off
+batchedit Regcontrol..* enabled=false
+

@@ -1,0 +1,31 @@
+Transformer.subxfmr.Taps=[1.0 1.01250]
+Transformer.regxfmr_b18865.Taps=[1.0 0.99375]
+Transformer.regxfmr_b19008.Taps=[1.0 1.03125]
+Transformer.regxfmr_b18863.Taps=[1.0 1.01875]
+Transformer.regxfmr_b19010.Taps=[1.0 1.0625]
+Transformer.regxfmr_b4874.Taps=[1.0 1.02188]
+Transformer.regxfmr_b18864.Taps=[1.0 1.01875]
+Transformer.regxfmr_b4872.Taps=[1.0 1.03437]
+Transformer.regxfmr_b4868.Taps=[1.0 1.03750]
+!Set controlmode=off
+batchedit Regcontrol..* enabled=false
+
+
+
+
+
+
+
+!CONTROLLED TRANSFORMER TAP SETTINGS
+
+!Name            Tap      Min       Max     Step  Position
+
+!subxfmr       1.01250  0.90000  1.10000  0.01250     1
+!regxfmr_b18865  0.99375  0.90000  1.10000  0.00625     -1
+!regxfmr_b19008  1.03125  0.90000  1.10000  0.00625     5
+!regxfmr_b18863  1.01875  0.90000  1.10000  0.00625     3
+!regxfmr_b19010  1.06250  0.90000  1.10000  0.00625     10
+!regxfmr_b4874  1.02188  0.95000  1.05000  0.00313     7
+!regxfmr_b18864  1.01875  0.90000  1.10000  0.00625     3
+!regxfmr_b4872  1.03437  0.95000  1.05000  0.00313     11
+!regxfmr_b4868  1.03750  0.95000  1.05000  0.00313     12

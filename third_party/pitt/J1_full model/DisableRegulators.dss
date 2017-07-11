@@ -1,0 +1,17 @@
+!New line.tempp1 bus1=B18865.3 bus2=B18865reg.3 switch=yes enabled=yes phases=1 normamps=99999 emergamps=99999
+!New line.tempp3 bus1=B19007.2 bus2=B19007reg.2 switch=yes enabled=yes phases=1 normamps=99999 emergamps=99999
+!New line.tempp5 bus1=B18862.1 bus2=B18862reg.1 switch=yes enabled=yes phases=1 normamps=99999 emergamps=99999
+!New line.tempp8 bus1=B19009.1 bus2=B19009reg.1 switch=yes enabled=yes phases=1 normamps=99999 emergamps=99999
+!New line.tempp9 bus1=B4877.1 bus2=B4877reg.1 switch=yes enabled=yes phases=1 normamps=99999 emergamps=99999
+!New line.tempp11 bus1=B18864.2 bus2=B18864reg.2 switch=yes enabled=yes phases=1 normamps=99999 emergamps=99999
+!New line.tempp13 bus1=B4872.3 bus2=B4872reg.3 switch=yes enabled=yes phases=1 normamps=99999 emergamps=99999
+!New line.tempp15 bus1=B4870.2 bus2=B4870reg.2 switch=yes enabled=yes phases=1 normamps=99999 emergamps=99999
+
+New line.tempp1 bus1=B18865 bus2=B18865reg switch=yes enabled=yes phases=3 normamps=99999 emergamps=99999
+New line.tempp3 bus1=B19007 bus2=B19007reg switch=yes enabled=yes phases=2 normamps=99999 emergamps=99999
+New line.tempp5 bus1=B18862 bus2=B18862reg switch=yes enabled=yes phases=3 normamps=99999 emergamps=99999
+New line.tempp8 bus1=B19009 bus2=B19009reg switch=yes enabled=yes phases=2 normamps=99999 emergamps=99999
+New line.tempp9 bus1=B4877 bus2=B4877reg switch=yes enabled=yes phases=3 normamps=99999 emergamps=99999
+New line.tempp11 bus1=B18864 bus2=B18864reg switch=yes enabled=yes phases=3 normamps=99999 emergamps=99999
+New line.tempp13 bus1=B4872 bus2=B4872reg switch=yes enabled=yes phases=3 normamps=99999 emergamps=99999
+New line.tempp15 bus1=B4870 bus2=B4870reg switch=yes enabled=yes phases=3 normamps=99999 emergamps=99999

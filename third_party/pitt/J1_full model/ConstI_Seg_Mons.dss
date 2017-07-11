@@ -1,0 +1,91 @@
+// J1
+// Monitors for the full system
+
+// VI monitors for the beginning and end of each segment
+New monitor.constI_seg1_in	element=Line.oh_5965127404		term=1		mode=0
+New monitor.constI_seg1_out	element=Line.oh_b4909			term=2		mode=0
+
+New monitor.constI_seg2_in	element=Line.oh_b4904			term=1		mode=0
+New monitor.constI_seg2_out	element=Line.oh_b4877			term=2		mode=0
+
+New monitor.constI_seg3_in	element=Line.oh_b4873			term=1		mode=0
+New monitor.constI_seg3_out	element=Line.oh_b4872			term=2		mode=0
+
+New monitor.constI_seg4_in	element=Line.oh_b4871			term=1		mode=0
+New monitor.constI_seg4_out	element=Line.oh_b4870			term=2		mode=0
+
+New monitor.constI_seg5_in	element=Line.oh_b4863			term=1		mode=0
+New monitor.constI_seg5_out	element=Line.oh_b4862			term=2		mode=0
+
+New monitor.constI_seg6_in	element=Line.oh_b4861			term=1		mode=0
+New monitor.constI_seg6_out	element=Line.oh_b4808			term=2		mode=0
+
+New monitor.constI_seg7_in	element=Line.oh_b4091			term=1		mode=0
+New monitor.constI_seg7_out	element=Line.oh_b4829			term=2		mode=0
+
+New monitor.constI_seg8_in	element=Line.oh_b4832			term=1		mode=0
+New monitor.constI_seg8_out	element=Line.oh_b4832			term=2		mode=0
+
+New monitor.constI_seg9_in	element=Line.oh_b4833			term=1		mode=0
+New monitor.constI_seg9_out	element=Line.oh_b4833			term=2		mode=0
+
+New monitor.constI_seg10_in	element=Line.oh_5862128364		term=1		mode=0
+New monitor.constI_seg10_out	element=Line.ug_5865228330a		term=2		mode=0
+
+New monitor.constI_seg11_in	element=Line.oh_b18821			term=1		mode=0
+New monitor.constI_seg11_out	element=Line.oh_b4837			term=2		mode=0
+
+New monitor.constI_seg12_in	element=Line.oh_b18820			term=1		mode=0
+New monitor.constI_seg12_out	element=Line.oh_b23208			term=2		mode=0
+
+New monitor.constI_seg13_in	element=Line.oh_5892428298		term=1		mode=0
+New monitor.constI_seg13_out	element=Line.oh_5890628219		term=2		mode=0
+
+New monitor.constI_seg14_in	element=Line.oh_b47983			term=1		mode=0
+New monitor.constI_seg14_out	element=Line.oh_b51854			term=2		mode=0
+
+New monitor.constI_seg15_in	element=Line.oh_b18828			term=1		mode=0
+New monitor.constI_seg15_out	element=Line.oh_b18862			term=2		mode=0
+
+New monitor.constI_seg16_in	element=Line.oh_b18864			term=1		mode=0
+New monitor.constI_seg16_out	element=Line.oh_b18864			term=2		mode=0
+
+New monitor.constI_seg17_in	element=Line.oh_b18865			term=1		mode=0
+New monitor.constI_seg17_out	element=Line.oh_b18865			term=2		mode=0
+
+New monitor.constI_seg18_in	element=Line.oh_b18866			term=1		mode=0
+New monitor.constI_seg18_out	element=Line.oh_b18941			term=2		mode=0
+
+New monitor.constI_seg19_in	element=Line.oh_b18944			term=1		mode=0
+New monitor.constI_seg19_out	element=Line.oh_b18967			term=2		mode=0
+
+New monitor.constI_seg20_in	element=Line.oh_b19006			term=1		mode=0
+New monitor.constI_seg20_out	element=Line.oh_b19007			term=2		mode=0
+
+New monitor.constI_seg21_in	element=Line.oh_b19009			term=1		mode=0
+New monitor.constI_seg21_out	element=Line.oh_b19009			term=2		mode=0
+
+New monitor.constI_seg22_in	element=Line.oh_b19011			term=1		mode=0
+New monitor.constI_seg22_out	element=Line.oh_b43438			term=2		mode=0
+
+New monitor.constI_seg23_in	element=Line.oh_b52565			term=1		mode=0
+New monitor.constI_seg23_out	element=Line.oh_g35320			term=2		mode=0
+
+// MONITORS FOR STATE OF CONTROLLED DEVICES (by type, in order of appearance)
+// Regulator Taps
+New monitor.constI_RegSub 	element=Transformer.SubXfmr 		terminal=2 	mode=2
+New monitor.constI_Reg5		element=Transformer.regxfmr_B4874 	terminal=2 	mode=2
+New monitor.constI_Reg7		element=Transformer.regxfmr_B4872 	terminal=2 	mode=2
+New monitor.constI_Reg8		element=Transformer.regxfmr_B4868 	terminal=2 	mode=2
+New monitor.constI_Reg3		element=Transformer.regxfmr_B18863 	terminal=2 	mode=2
+New monitor.constI_Reg6		element=Transformer.regxfmr_B18864 	terminal=2 	mode=2
+New monitor.constI_Reg1		element=Transformer.regxfmr_B18865	terminal=2 	mode=2
+New monitor.constI_Reg2		element=Transformer.regxfmr_B19008 	terminal=2 	mode=2
+New monitor.constI_Reg4		element=Transformer.regxfmr_B19010 	terminal=2 	mode=2
+// Capacitor State
+New monitor.constI_Cap3		element=Capacitor.B4862-1						mode=33
+New monitor.constI_Cap4		element=Capacitor.B4829-1						mode=33
+New monitor.constI_Cap5		element=Capacitor.B4877-1						mode=33
+New monitor.constI_Cap1		element=Capacitor.B4909-1						mode=33
+New monitor.constI_Cap2		element=Capacitor.B18944						mode=33
+

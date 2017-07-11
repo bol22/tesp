@@ -1,0 +1,5 @@
+New monitor.simp_seg1_in	element=Line.Line_Seg_1						term=1		mode=0
+New monitor.simp_seg1_out	element=Line.Line_Seg_1						term=2		mode=0
+
+New monitor.simp_seg2_in	element=Line.Line_Seg_2						term=1		mode=0
+New monitor.simp_seg2_out	element=Line.Line_Seg_2						term=2		mode=0

@@ -1,0 +1,5 @@
+New monitor.full_seg1_in	element=Line.Line1						term=1		mode=0
+New monitor.full_seg1_out	element=Line.Line3					term=2		mode=0
+
+New monitor.full_seg2_in	element=Line.Line4					term=1		mode=0
+New monitor.full_seg2_out	element=Line.Line6						term=2		mode=0

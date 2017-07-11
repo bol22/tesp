@@ -1,0 +1,35 @@
+clear
+New Circuit.T1 
+Edit Vsource.Source BasekV=0.24 pu=1.05 ISC3=3000000 ISC1=2500000 !Define source V and Z
+
+New linecode.721 nphases=3 BaseFreq=60
+!!!~ rmatrix = (0.0554906 | 0.0127467 0.0501597 | 0.00640446 0.0127467 0.0554906 )
+!!!~ xmatrix = (0.0372331 | -0.00704588 0.0358645 | -0.00796424 -0.00704588 0.0372331 )
+!!!~ cmatrix = (124.851 | 0 124.851 | 0 0 124.851 )
+~ rmatrix = [0.055416667 | 0.012746212  0.050113636  | 0.006382576  0.012746212  0.055416667]
+~ xmatrix = [0.037367424 | -0.006969697  0.035984848 | -0.007897727  -0.006969697  0.037367424]
+~ cmatrix = [80.27484728 | 0  80.27484728            | 0  0  80.27484728]
+
+New Line.LINE1 Bus1=SourceBus Bus2=b1 Linecode=721 Length=0.1 Units=Mi
+New Line.LINE2 Bus1=b1 Bus2=b2 Linecode=721 Length=0.1 Units=Mi
+New Line.LINE3 Bus1=b1 Bus2=b3 Linecode=721 Length=0.1 Units=Mi
+New Line.LINE4 Bus1=b3 Bus2=b4 Linecode=721 Length=0.1 Units=Mi
+New Line.LINE5 Bus1=b4 Bus2=b5 Linecode=721 Length=0.1 Units=Mi
+New Line.LINE6 Bus1=b4 Bus2=b6 Linecode=721 Length=0.1 Units=Mi
+
+
+New Load.LOAD1 Bus1=b1 kV=0.24 kW=46 PF=1
+New Load.LOAD2 Bus1=b2 kV=0.24 kW=48.5 PF=1
+New Load.LOAD3 Bus1=b3 kV=0.24 kW=47 PF=1
+New Load.LOAD4 Bus1=b4 kV=0.24 kW=43.5 PF=1
+New Load.LOAD5 Bus1=b5 kV=0.24 kW=39.5 PF=1
+New Load.LOAD6 Bus1=b6 kV=0.24 kW=50 PF=1
+
+Set voltagebase=0.24
+calcv
+New Energymeter.M1 element=Line.LINE1 1
+Solve
+//Show Voltages
+//Show Currents
+//Show Powers kVA elements
+plot profile phases=all
