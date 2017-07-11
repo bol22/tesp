@@ -1,0 +1,3 @@
+New "Monitor.subvi" element=transformer.subxfmr terminal=2 mode=0
+New "Monitor.subpq" element=transformer.subxfmr terminal=1 mode=65 PPolar=No
+New "Monitor.feederpq" element=line.oh_5964927408 terminal=1 mode=65 PPolar=No

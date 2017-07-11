@@ -1,0 +1,20 @@
+New "Transformer.regxfmr_b19010" phases=1 windings=2 buses=[b19009.1, b19009reg.1, ] conns=[wye, wye, ] kVs=[7.2, 7.2, ] kVAs=[10000, 10000, ] Xhl=0.01 MaxTap=1.1 MinTap=0.9 enabled=true
+New "RegControl.regxfmr_b19010_ctrl" transformer=regxfmr_B19010 winding=2 tapwinding=2 vreg=124 ptratio=60 band=2 enabled=true delay=48
+New "Transformer.regxfmr_b19008" phases=1 windings=2 buses=[b19007.2, b19007reg.2, ] conns=[wye, wye, ] kVs=[7.2, 7.2, ] kVAs=[10000, 10000, ] Xhl=0.01 MaxTap=1.1 MinTap=0.9 enabled=true
+New "RegControl.regxfmr_b19008_ctrl" transformer=regxfmr_B19008 winding=2 tapwinding=2 vreg=124 ptratio=60 band=2 enabled=true delay=46
+New "Transformer.regxfmr_b18865" phases=1 windings=2 buses=[b18865.3, b18865reg.3, ] conns=[wye, wye, ] kVs=[7.2, 7.2, ] kVAs=[10000, 10000, ] Xhl=0.01 MaxTap=1.1 MinTap=0.9 enabled=true
+New "RegControl.regxfmr_b18865_ctrl" transformer=regxfmr_B18865 winding=2 tapwinding=2 vreg=124 ptratio=60 band=2 enabled=true delay=45
+New "Transformer.regxfmr_b18864" phases=1 windings=2 buses=[b18864.2, b18864reg.2, ] conns=[wye, wye, ] kVs=[7.2, 7.2, ] kVAs=[10000, 10000, ] Xhl=0.01 MaxTap=1.1 MinTap=0.9 enabled=true
+New "RegControl.regxfmr_b18864_ctrl" transformer=regxfmr_B18864 winding=2 tapwinding=2 vreg=124 ptratio=60 band=2 enabled=true delay=50
+New "Transformer.regxfmr_b18863" phases=1 windings=2 buses=[b18862.1, b18862reg.1, ] conns=[wye, wye, ] kVs=[7.2, 7.2, ] kVAs=[10000, 10000, ] Xhl=0.01 MaxTap=1.1 MinTap=0.9 enabled=true
+New "RegControl.regxfmr_b18863_ctrl" transformer=regxfmr_B18863 winding=2 tapwinding=2 vreg=124 ptratio=60 band=2 enabled=true delay=47
+New "Transformer.existingsite4" phases=3 windings=2 buses=[b51854, b51854_sec, ] conns=[wye, wye, ] kVs=[12.47, 0.416, ] kVAs=[1000, 1000, ] Xhl=5
+New "Transformer.existingsite3" phases=3 windings=2 buses=[5890628219, 5890628219_sec, ] conns=[wye, wye, ] kVs=[12.47, 0.416, ] kVAs=[2000, 2000, ] Xhl=5
+New "Transformer.5865228330a-1abc" phases=3 buses=[5865228330a.1.2.3, x_5865228330a, ] conns=[wye, wye, ] kVs=[12.47, 0.416, ] kVAs=[2000, 2000, ] taps=[1, 1, ] wdg=1 %R=0.35 wdg=2 %R=0.35 %loadloss=0.7 %noloadloss=0.05 Xhl=5 normhkVA=2000.01 emerghkVA=2800
+New "Transformer.existingsite2" phases=3 windings=2 buses=[b4832, b4832_sec, ] conns=[wye, wye, ] kVs=[12.47, 0.416, ] kVAs=[250, 250, ] %loadloss=0.7 %noloadloss=0.157 Xhl=1.7 normhkVA=275 emerghkVA=350
+New "Transformer.regxfmr_b4868" phases=1 windings=2 buses=[b4870.2, b4870reg.2, ] conns=[wye, wye, ] kVs=[7.2, 7.2, ] kVAs=[10000, 10000, ] Xhl=0.01 MaxTap=1.05 MinTap=0.95 enabled=true
+New "RegControl.regxfmr_b4868_ctrl" transformer=regxfmr_B4868 winding=2 tapwinding=2 vreg=124 ptratio=60 band=2 enabled=true delay=52
+New "Transformer.regxfmr_b4872" phases=1 windings=2 buses=[b4872.3, b4872reg.3, ] conns=[wye, wye, ] kVs=[7.2, 7.2, ] kVAs=[10000, 10000, ] Xhl=0.01 MaxTap=1.05 MinTap=0.95 enabled=true
+New "RegControl.regxfmr_b4872_ctrl" transformer=regxfmr_B4872 winding=2 tapwinding=2 vreg=124 ptratio=60 band=2 enabled=true delay=51
+New "Transformer.regxfmr_b4874" phases=1 windings=2 buses=[b4877.1, b4877reg.1, ] conns=[wye, wye, ] kVs=[7.2, 7.2, ] kVAs=[10000, 10000, ] Xhl=0.01 MaxTap=1.05 MinTap=0.95 enabled=true
+New "RegControl.regxfmr_b4874_ctrl" transformer=regxfmr_B4874 winding=2 tapwinding=2 vreg=124 ptratio=60 band=2 enabled=true delay=49
