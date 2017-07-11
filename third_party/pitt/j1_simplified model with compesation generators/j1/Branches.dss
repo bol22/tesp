@@ -1,0 +1,45 @@
+New "Line.oh_5964927408" bus1=feederhead.1.2.3 bus2=5964927408.1.2.3 length=22.86 units=m linecode=OH-3X_477AAC_4/0AAACN normamps=732 emergamps=871 phases=3 enabled=true
+New "Line.line_seg_1" length=4.184 bus1=5964927408 bus2=b4909 phases=3 rmatrix=[0.044854 |-0.04465 0.077073 |-0.066007 -0.063628 0.052187 ] xmatrix=[0.16077 |-0.19781 0.19065 |-0.1961 -0.16669 0.21505 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_2" length=0.9083 bus1=b4909 bus2=b4877 phases=3 rmatrix=[0.051995 |-0.049347 0.08201 |-0.073374 -0.057981 0.048628 ] xmatrix=[0.16511 |-0.20357 0.20974 |-0.2054 -0.17598 0.21575 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.temp10" bus1=b4877.3 bus2=b4877reg.3 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.line_seg_3" length=0.09244 bus1=b4877reg bus2=b4872 phases=3 rmatrix=[0.046124 |-0.04535 0.093274 |-0.07781 -0.055934 0.043355 ] xmatrix=[0.15029 |-0.20684 0.21235 |-0.20452 -0.16782 0.22846 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.temp14" bus1=b4872.2 bus2=b4872reg.2 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.line_seg_4" length=0.06257 bus1=b4872reg bus2=b4870 phases=3 rmatrix=[0.058434 |-0.044103 0.085318 |-0.07461 -0.060274 0.037901 ] xmatrix=[0.15575 |-0.19724 0.22408 |-0.21031 -0.17041 0.20732 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.temp16" bus1=b4870.3 bus2=b4870reg.3 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.line_seg_5" length=0.12353 bus1=b4870reg bus2=b4862 phases=3 rmatrix=[0.049809 |-0.050821 0.078955 |-0.071878 -0.058075 0.053392 ] xmatrix=[0.1699 |-0.20428 0.20211 |-0.20242 -0.17777 0.2166 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_6" length=0.14722 bus1=b4862 bus2=b4808 phases=3 rmatrix=[0.048573 |-0.052833 0.07893 |-0.071874 -0.057053 0.055817 ] xmatrix=[0.17234 |-0.2062 0.20045 |-0.20214 -0.17994 0.21944 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_7" length=0.62758 bus1=b4808 bus2=b4829 phases=3 rmatrix=[0.15082 |-0.029756 0.030307 |-0.047943 -0.097894 0.01206 ] xmatrix=[0.20347 |-0.14184 0.31265 |-0.24176 -0.15876 0.099849 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_8" length=0.13716 bus1=b4829 bus2=b4832 phases=3 rmatrix=[0.1538 |-0.029181 0.028071 |-0.048082 -0.10033 0.014666 ] xmatrix=[0.21113 |-0.14384 0.31208 |-0.24247 -0.16276 0.099362 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_9" length=0.040234 bus1=b4832 bus2=b4833 phases=3 rmatrix=[0.15194 |-0.029246 0.029173 |-0.049556 -0.099191 0.014998 ] xmatrix=[0.20951 |-0.14549 0.31049 |-0.24236 -0.16254 0.10125 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_11" length=0.11156 bus1=b4833 bus2=b4837 phases=3 rmatrix=[0.15627 |-0.025848 0.02684 |-0.050734 -0.10028 0.013023 ] xmatrix=[0.20876 |-0.14282 0.31492 |-0.24396 -0.15505 0.096825 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_15" length=1.6453 bus1=b4837 bus2=b18862 phases=3 rmatrix=[0.43206 |-0.16481 0.20432 |-0.1527 -0.25074 0.063753 ] xmatrix=[0.24998 |-0.12511 0.47811 |-0.25727 -0.17101 0.057425 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.temp6" bus1=b18862.3 bus2=b18862reg.3 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.line_seg_16" length=0.090916 bus1=b18862reg bus2=b18864 phases=3 rmatrix=[0.50295 |-0.20413 0.25044 |-0.20832 -0.30166 0.098662 ] xmatrix=[0.28568 |-0.16315 0.50414 |-0.27943 -0.20841 0.073479 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.temp12" bus1=b18864.3 bus2=b18864reg.3 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.line_seg_17" length=0.040624 bus1=b18864reg bus2=b18865 phases=3 rmatrix=[0.49937 |-0.19879 0.21443 |-0.20508 -0.30558 0.11796 ] xmatrix=[0.31738 |-0.1759 0.45178 |-0.25933 -0.22496 0.071316 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.temp2" bus1=b18865.2 bus2=b18865reg.2 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.line_seg_18" length=3.4535 bus1=b18865reg bus2=b18941 phases=3 rmatrix=[0.55068 |-0.21618 0.24403 |-0.21546 -0.32643 0.11756 ] xmatrix=[0.30134 |-0.15871 0.46219 |-0.2429 -0.20951 0.055376 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_19" length=1.1793 bus1=b18941 bus2=b18967 phases=3 rmatrix=[0.85587 |-0.22888 0.17598 |-0.15289 -0.49973 0.193 ] xmatrix=[0.43337 |-0.13521 0.36079 |-0.19938 -0.18147 -0.057544 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_20" length=0.12222 bus1=b18967.1.2 bus2=b19007.1.2 phases=2 rmatrix=[1.2294 |-0.072776 0.21534 ] xmatrix=[0.53537 |-0.20009 0.71813 ] cmatrix=[0 |0 0 ]
+New "Line.temp3" bus1=b19007.1 bus2=b19007reg.1 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.line_seg_21" length=0.085734 bus1=b19007reg.1.2 bus2=b19009.1.2 phases=2 rmatrix=[1.2157 |-0.057174 0.19526 ] xmatrix=[0.54541 |-0.20228 0.68425 ] cmatrix=[0 |0 0 ]
+New "Line.temp8" bus1=b19009.2 bus2=b19009reg.2 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.line_seg_22" length=3.5711 bus1=b19009reg.1.2 bus2=b43438.1.2 phases=2 rmatrix=[0.80888 |-0.016948 0.30701 ] xmatrix=[0.16769 |-0.24731 0.53557 ] cmatrix=[0 |0 0 ]
+New "Line.line_seg_23" length=1.4048 bus1=b43438.2 bus2=5962929303.2 phases=1 rmatrix=[0.51871 ] xmatrix=[0.32113 ] cmatrix=[0 ]
+New "Line.temp1" bus1=b18865.1 bus2=b18865reg.1 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.temp11" bus1=b18864.1 bus2=b18864reg.1 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.temp5" bus1=b18862.2 bus2=b18862reg.2 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.line_seg_12" length=0.82784 bus1=b4837 bus2=b23208 phases=3 rmatrix=[0.3539 |-0.48097 0.38041 |-0.33953 -0.42124 0.53803 ] xmatrix=[0.26756 |-0.22833 0.13281 |-0.20904 -0.2698 0.35049 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.line_seg_14" length=0.27127 bus1=b23208 bus2=b51854 phases=3 rmatrix=[0.31132 |-0.45243 0.33671 |-0.25742 -0.40952 0.53163 ] xmatrix=[0.2501 |-0.20086 0.096653 |-0.23884 -0.22348 0.39821 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.site4_pv" bus1=b51854_sec bus2=b51854_sec2 Switch=True enabled=true phases=3 normamps=99999 emergamps=99999
+New "Line.site4_cust1" bus1=b51854_sec bus2=x_b53380_cust1 Switch=True enabled=true phases=3 normamps=99999 emergamps=99999
+New "Line.line_seg_13" length=0.28346 bus1=b23208 bus2=5890628219 phases=3 rmatrix=[0.27171 |-0.28315 0.27617 |-0.267 -0.26803 0.2703 ] xmatrix=[0.25668 |-0.26389 0.26298 |-0.25374 -0.27069 0.26879 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.site3-abc_cust1" bus1=5890628219_sec bus2=x_5891328219_cust1 Switch=True enabled=true phases=3 normamps=99999 emergamps=99999
+New "Line.line_seg_10" length=0.17374 bus1=b4833 bus2=5865228330a phases=3 rmatrix=[0.36056 |-0.37187 0.36331 |-0.35091 -0.35913 0.35806 ] xmatrix=[0.22499 |-0.22814 0.23138 |-0.22309 -0.24157 0.23649 ] cmatrix=[0 |0 0 |0 0 0 ]
+New "Line.site1-abc_cust1" phases=3 bus1=x_5865228330a bus2=x_5865228330a_cust1 length=0.1 linecode=750A normamps=580 emergamps=725 units=kft
+New "Line.site2-c_cust1" phases=1 bus1=b4832_sec.3 bus2=x_5833428564_cust1-c.3 length=0.1 linecode=750A1 normamps=580 emergamps=725 units=kft
+New "Line.site2-b_cust1" phases=1 bus1=b4832_sec.2 bus2=x_5833428564_cust1-b.2 length=0.1 linecode=750A1 normamps=580 emergamps=725 units=kft
+New "Line.site2-a_cust1" phases=1 bus1=b4832_sec.1 bus2=x_5833428564_cust1-a.1 length=0.1 linecode=750A1 normamps=580 emergamps=725 units=kft
+New "Line.temp15" bus1=b4870.1 bus2=b4870reg.1 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.temp13" bus1=b4872.1 bus2=b4872reg.1 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999
+New "Line.temp9" bus1=b4877.2 bus2=b4877reg.2 Switch=True enabled=true phases=1 normamps=99999 emergamps=99999

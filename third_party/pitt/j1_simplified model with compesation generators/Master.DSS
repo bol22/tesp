@@ -1,0 +1,21 @@
+Clear
+New Circuit.j1
+
+
+Redirect Vsource.dss
+Redirect LineCode.DSS
+Redirect LoadShape.DSS
+Redirect GrowthShape.DSS
+Redirect TCC_Curve.DSS
+Redirect Spectrum.DSS
+Redirect j1\Branches.dss
+Redirect j1\Transformers.dss
+Redirect j1\Loads.dss
+Redirect Line.DSS
+Redirect Load.DSS
+Redirect Transformer.DSS
+Redirect Monitor.DSS
+Redirect EnergyMeter.DSS
+MakeBusList
+Redirect BusVoltageBases.dss  ! set voltage bases
+Buscoords buscoords.dss
